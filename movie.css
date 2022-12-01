@@ -1,0 +1,64 @@
+body{
+    background-color: #ccc;
+}
+#container
+{
+    margin: auto;
+    height: 500px;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+#img1,#img3
+{
+    width: 24%;
+    height: 50px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+#upper
+{
+    margin-top: 20px;
+    color: black;
+    text-shadow: 2px 1px;
+    font-size: 30px;
+    text-align: center;
+   
+}
+#lower
+{
+    background-color: brown;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+    
+    background-repeat: no-repeat;
+}
+    #left
+    {
+       
+       height: 400px;
+       width: 800px;
+       float: left;
+       background-image: url("images/rbg.png");
+       background-repeat: repeat-x;
+
+    }  
+    #left span{
+        font-size: 60px;
+        color:red;
+        position: relative;
+        bottom: 25px;
+    }
+    #right
+    {
+
+        float: left;
+    }
+    #right img
+    {
+
+        float: right;
+        border-top-right-radius: 15px;
+    }
